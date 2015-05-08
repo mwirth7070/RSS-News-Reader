@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>CodePen - RSS News Reader</title>
+
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+  <html>
+<head>
+
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <script type="text/javascript" src="js/main.js"></script>
+</head>
+
+ <body>
+
+    <div class="container"><b>
+      <table><tr><th colspan="3"><img src="https://static.squarespace.com/static/ta/522a22cbe4b04681b0bff826/2104/assets/img/hrhq-logo@2x.png"><br>RSS NEWS FEEDS</th></tr><tr align="center"><td width="405">1) "HACK REACTOR"</td><td width="405">2) "FRONT END DEVELOPER"</td><td width="405"><div>
+        <label for="dt_id">3) CUSTOM TERM:</label>
+        <input type="Text" id="dt_id" maxlength="50" size="20"/>
+        <input type='button' onclick='myGetElementsByClassName()' value='SUBMIT'> 
+</div></td></tr></table></b>
+
+        <div class="post_results" id="post_results1" rss_num="7" rss_url="http://www.bing.com/news/search?q=hack+reactor&FORM=HDRSC6&format=rss">
+            <div class="loading_rss">
+                <img alt="Loading..." src="images/loading.gif" />
+            </div>
+        </div>
+
+        <div class="post_results" id="post_results2" rss_num="7" rss_url="http://www.bing.com/news/search?q=front+end+developer&FORM=HDRSC6&format=rss">
+            <div class="loading_rss">
+                <img alt="Loading..." src="images/loading.gif" />
+            </div>
+        </div>
+
+      <div class="post_results" id="post_results3" rss_num="7" rss_url="http://www.bing.com/news/search?q=front+end+developer&FORM=HDRSC6&format=rss" rss_plus=""> 
+            <div class="loading_rss">
+                <img alt="Loading..." src="images/loading.gif" />
+            </div>
+        </div>
+
+       This demo is based on original source code from script-tutorials.com which can be found <a href="http://www.script-tutorials.com/creating-own-rss-reader-using-google-feed-api/"  target="_blank">here</a>.
+
+        <div style="clear:both;"></div>
+    </div>
+ </body>
+</html>
+
+  <script src="js/index.js"></script>
+
+</body>
+
+</html>
